@@ -1,0 +1,25 @@
+
+
+The Guidiline to transform the RPS game in a game with UI!
+
+1 - The game will be inserted in a centered rect (div) on the body;
+2 - The initial screen will have a "New Game" button;
+    a - Before the game starts, Some informations will showed, like the title(h1) and the New Game button;
+        When the New Game button was clicked, the button will be removed. 3 - When the New Game button was clicked,
+        an event handler will call a function "newGame";
+4 - The function newGame, will had some phases:
+    a - "Phase 0" - Insert your name and confirm;
+    b - "Phase 1 - 5" - Player choose the option, the Machine response is sorted and the result
+        appears on the screen. Update the variable that holds the general score. A button with 
+        "Next round" text appears. When clicked, starts the next round; If is the last round, go to the "End Game" phase;
+    c - "End game" - Shows the winner and a button called "Star New Game". If pressed, return to Phase 0;
+
+    * on Phase0 the playerName, playerChoice, machineChoice, playerScore and machineScore is created;
+    * in the end of Phase0, Phase1 is called;
+    * At the end of Phase1, playerChoice/machineChoice needs to be cleaned, and the playerScore/machineScore
+    needto be updated;
+    * At the end of Phase5, EndGame is called;
+    * At the EndGame phase, the New Game buttons appears again.
+
+
+
