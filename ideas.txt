@@ -5,8 +5,8 @@ The Guidiline to transform the RPS game in a game with UI!
 1 - The game will be inserted in a centered rect (div) on the body;
 2 - The initial screen will have a "New Game" button;
     a - Before the game starts, Some informations will showed, like the title(h1) and the New Game button;
-        When the New Game button was clicked, the button will be removed. 3 - When the New Game button was clicked,
-        an event handler will call a function "newGame";
+        When the New Game button was clicked, the button will be removed.
+3 - When the New Game button was clicked, an event handler will call a function "newGame";
 4 - The function newGame, will had some phases:
     a - "Phase 0" - Insert your name and confirm;
     b - "Phase 1 - 5" - Player choose the option, the Machine response is sorted and the result
